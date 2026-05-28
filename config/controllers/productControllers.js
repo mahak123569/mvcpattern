@@ -20,3 +20,4 @@ const getProducts = async(requestAnimationFrame,res)=>{
         })
     }
 }
+module.exports = {getProducts}
