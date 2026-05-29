@@ -1,22 +1,23 @@
 const express = require("express");
 const app = express();
 const dotenv = require('dotenv');
-const connectDB = require('./config/db');
-const productRoutes = require('./routes/productRoutes')
-const port = 3000;
+const connectDB = require('./db');
+const productRoutes = require('./routes/productRoutes');
+
 
 dotenv.config();
 connectDB();
 
-const PORT = process.env.PORT;
+const PORT = process.env.PORT || 3000;
 
 app.use(express.json());
 
-
 app.get('/', (req, res) => {
-  res.send("hello welcome");
-})
-app.get('/api',productRoutes);
+  res.send('hello welcome');
+});
+
+// Mount API routes under /api
+app.use('/api', productRoutes);
 
 app.listen(PORT, () => {
   console.log(`app is listening at ${PORT} port`);

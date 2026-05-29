@@ -11,8 +11,8 @@ const productSchema = new Schema({
     required:true
   },
   description:{
-    type:String,
-    required:ture
+  type:String,
+  required:true
   },
   category: {
     type :String,
