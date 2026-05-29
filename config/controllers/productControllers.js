@@ -1,5 +1,4 @@
-const product  = require('../models/productModel');
-
+const product  = require("../models/productModel");
 const getProducts = async(requestAnimationFrame,res)=>{
     try{
         const allproducts = product.find();
