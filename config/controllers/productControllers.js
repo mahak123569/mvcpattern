@@ -1,8 +1,6 @@
 const Product = require("../models/productmodel");
 
-// Controller contract:
-// input: (req, res)
-// output: JSON list of products or error
+
 const getProducts = async (req, res) => {
     try {
         const allProducts = await Product.find();
