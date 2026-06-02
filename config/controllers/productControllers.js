@@ -58,7 +58,7 @@ const updateProduct = async (req, res) => {
             });
         }
         return res.status(200).json({
-            product: updatedProduct,
+            product: updatedProduct
         });
     } catch (err) {
         return res.status(500).json({
