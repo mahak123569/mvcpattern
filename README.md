@@ -1,7 +1,5 @@
 💼 GitHub: https://github.com/mahak123569
 
-mvc project
-
 # MVC Pattern in PHP
 
 A simple PHP project demonstrating the **Model-View-Controller (MVC)** architectural pattern. This project separates business logic, user interface, and data handling to create a clean, maintainable, and scalable application.
