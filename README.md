@@ -15,7 +15,6 @@ A simple PHP project demonstrating the **Model-View-Controller (MVC)** architect
 
 ## 📂 Project Structure
 
-```
 mvcpattern/
 │
 ├── controllers/
@@ -34,7 +33,7 @@ mvcpattern/
 │   └── index.php
 │
 └── README.md
-```
+
 
 ## 🏗 MVC Architecture
 
