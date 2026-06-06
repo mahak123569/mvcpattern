@@ -1,17 +1,5 @@
 💼 GitHub: https://github.com/mahak123569
 
-# MVC Pattern in PHP
-
-
-## 📌 Features
-
-- MVC Architecture
-- Clean Project Structure
-- Separation of Concerns
-- Easy Maintenance
-- Reusable Components
-- Beginner-Friendly PHP Project
-
 ## 📂 Project Structure
 
 mvcpattern/
