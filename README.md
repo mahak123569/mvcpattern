@@ -85,10 +85,10 @@ http://localhost/mvcpattern
 
 ## 🛠 Technologies Used
 
-- PHP
+
 - HTML
 - CSS
-- MySQL
+
 
 ## 👩‍💻 Author
 
