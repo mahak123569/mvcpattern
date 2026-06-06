@@ -2,25 +2,6 @@
 
 ## 📂 Project Structure
 
-mvcpattern/
-│
-├── controllers/
-│   └── HomeController.php
-│
-├── models/
-│   └── User.php
-│
-├── views/
-│   └── home.php
-│
-├── config/
-│   └── database.php
-│
-├── public/
-│   └── index.php
-│
-└── README.md
-
 
 ## 🏗 MVC Architecture
 
