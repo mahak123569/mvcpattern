@@ -40,40 +40,13 @@ mvcpattern/
 ### Model
 The Model handles data and business logic.
 
-Example:
-```php
-class User {
-    public function getUsers() {
-        return "Fetching user data";
-    }
-}
-```
 
-### View
-The View displays data to the user.
-
-Example:
-```php
-<h1>Welcome to MVC Application</h1>
-```
 
 ### Controller
 The Controller acts as an intermediary between Model and View.
 
-Example:
-```php
-class HomeController {
-    public function index() {
-        include 'views/home.php';
-    }
-}
-```
 
-## ⚙️ Requirements
 
-- PHP 7.4 or higher
-- Apache/XAMPP/WAMP Server
-- Web Browser
 
 ## 🚀 Installation
 
