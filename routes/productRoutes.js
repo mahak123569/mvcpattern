@@ -6,8 +6,10 @@ router.get('/products', getProducts);
 //product
 
 router.post('/product', createProduct);
+//get product
 
 router.put('/product/:id', updateProduct);
+//update product 
 
 module.exports = router;
 
