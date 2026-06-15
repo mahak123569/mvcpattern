@@ -3,26 +3,13 @@
 ## 📂 Project Structure
 
 
-## 🏗 MVC Architecture
-
-### Model
-The Model handles data and business logic.
-
-
-
-### Controller
-The Controller acts as an intermediary between Model and View.
-
-
-
-
 ## 🚀 Installation
 
 1. Clone the repository:
 
-```bash
+bash
 git clone https://github.com/mahak123569/mvcpattern.git
-```
+
 
 2. Move the project to your web server directory.
 
