@@ -16,7 +16,7 @@ app.get('/', (req, res) => {
   res.send('hello welcome');
 });
 
-// Mount API routes under /api
+
 app.use('/api', productRoutes);
 
 app.listen(PORT, () => {
