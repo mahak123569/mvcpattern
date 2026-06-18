@@ -53,19 +53,22 @@ const updateProduct = async (req, res) => {
             { new: true }
         );
         if (!updatedProduct) {
-            return res.status(404).json({
+             res.status(404).json({
                 message: "Product not found",
-            });
+            })
         }
-        return res.status(200).json({
+     res.status(200).json({
             product: updatedProduct
         });
     } catch (err) {
         return res.status(500).json({
             success: false,
+            
             message: err.message || "server error",
         });
     }
 };
+
+
 
 module.exports = { getProducts, createProduct, updateProduct };
