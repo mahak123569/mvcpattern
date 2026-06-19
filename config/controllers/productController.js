@@ -41,6 +41,7 @@ const createProduct = async (req, res) => {
         });
     }
 };
+//update product
 
 const updateProduct = async (req, res) => {
     try {
