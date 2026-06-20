@@ -17,9 +17,9 @@ git clone https://github.com/mahak123569/mvcpattern.git
 
 4. Open in browser:
 
-```
+
 http://localhost/mvcpattern
-```
+
 
 ## 📖 How It Works
 
