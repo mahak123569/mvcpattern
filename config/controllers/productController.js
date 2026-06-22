@@ -58,7 +58,7 @@ const updateProduct = async (req, res) => {
                 message: "Product not found",
             })
         }
-     res.status(200).json({
+    return res.status(200).json({
             product: updatedProduct
         });
     } catch (err) {
