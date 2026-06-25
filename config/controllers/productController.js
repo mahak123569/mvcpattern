@@ -27,6 +27,7 @@ const getProducts = async (req, res) => {
 const createProduct = async (req, res) => {
     try {
         const { name, price, description, category } = req.body;
+        
         const newProduct = new Product({ name, price, description, category });
 
         await newProduct.save();
